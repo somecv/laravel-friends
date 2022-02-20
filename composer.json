@@ -1,0 +1,55 @@
+{
+    "name": "cuitcode/laravel-friendships",
+    "description": "This package gives Eloquent models the ability to manage their friendships.",
+    "keywords": ["laravel", "friendships", "friend-system", "friends", "eloquent"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cuitcode",
+            "email": "support@cuitcode.com"
+        }
+    ],
+    "autoload-dev": {
+        "classmap": [
+            "vendor/laravel/laravel/tests/TestCase.php"
+        ],
+        "files": [
+            "tests/helpers.php"
+        ],
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^9.3",
+        "laravel/laravel": "^8.0",
+        "symfony/console": "^5.2.0",
+        "mockery/mockery": "^1.4.2",
+        "doctrine/dbal": "^2.5",
+        "orchestra/testbench": "^6.18",
+        "phpunit/php-code-coverage": "^9.2",
+        "fakerphp/faker": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cuitcode\\Friendships\\": "src"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php ./vendor/bin/testbench package:discover --ansi"
+        ],
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cuitcode\\Friendships\\FriendshipsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
