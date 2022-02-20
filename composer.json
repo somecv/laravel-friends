@@ -1,7 +1,13 @@
 {
-    "name": "cuitcode/laravel-friendships",
+    "name": "somecv/laravel-friends",
     "description": "This package gives Eloquent models the ability to manage their friendships.",
-    "keywords": ["laravel", "friendships", "friend-system", "friends", "eloquent"],
+    "keywords": [
+        "laravel",
+        "friendships",
+        "friend-system",
+        "friends",
+        "eloquent"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -24,7 +30,7 @@
         "php": "^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit" : "^9.3",
+        "phpunit/phpunit": "^9.3",
         "laravel/laravel": "^8.0",
         "symfony/console": "^5.2.0",
         "mockery/mockery": "^1.4.2",
