@@ -1,6 +1,6 @@
 <?php
 
-namespace Cuitcode\Friendships;
+namespace Somecv\Friendships;
 
 /**
  * Class Status.

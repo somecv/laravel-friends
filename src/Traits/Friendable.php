@@ -1,29 +1,29 @@
 <?php
 
-namespace Cuitcode\Friendships\Traits;
+namespace Somecv\Friendships\Traits;
 
-use Cuitcode\Friendships\Status;
+use Somecv\Friendships\Status;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Database\Eloquent\Model;
-use Cuitcode\Friendships\Models\Friendship;
-use Cuitcode\Friendships\Events\FriendshipsSent;
-use Cuitcode\Friendships\Events\FriendshipsDenied;
-use Cuitcode\Friendships\Events\FriendshipsBlocked;
-use Cuitcode\Friendships\Events\FriendshipsAccepted;
-use Cuitcode\Friendships\Events\FriendshipsCancelled;
-use Cuitcode\Friendships\Events\FriendshipsUnblocked;
-use Cuitcode\Friendships\Models\FriendFriendshipGroups;
+use Somecv\Friendships\Models\Friendship;
+use Somecv\Friendships\Events\FriendshipsSent;
+use Somecv\Friendships\Events\FriendshipsDenied;
+use Somecv\Friendships\Events\FriendshipsBlocked;
+use Somecv\Friendships\Events\FriendshipsAccepted;
+use Somecv\Friendships\Events\FriendshipsCancelled;
+use Somecv\Friendships\Events\FriendshipsUnblocked;
+use Somecv\Friendships\Models\FriendFriendshipGroups;
 
 /**
  * Class Friendable
- * @package Cuitcode\Friendships\Traits
+ * @package Somecv\Friendships\Traits
  */
 trait Friendable
 {
     /**
      * @param Model $recipient
      *
-     * @return \Cuitcode\Friendships\Models\Friendship|false
+     * @return \Somecv\Friendships\Models\Friendship|false
      */
     public function befriend(Model $recipient)
     {
@@ -174,7 +174,7 @@ trait Friendable
     /**
      * @param Model $recipient
      *
-     * @return \Cuitcode\Friendships\Models\Friendship
+     * @return \Somecv\Friendships\Models\Friendship
      */
     public function blockFriend(Model $recipient)
     {
@@ -211,7 +211,7 @@ trait Friendable
     /**
      * @param Model $recipient
      *
-     * @return \Cuitcode\Friendships\Models\Friendship
+     * @return \Somecv\Friendships\Models\Friendship
      */
     public function getFriendship(Model $recipient)
     {

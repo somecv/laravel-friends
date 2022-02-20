@@ -1,6 +1,6 @@
 <?php
 
-namespace Cuitcode\Friendships\Events;
+namespace Somecv\Friendships\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Foundation\Events\Dispatchable;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Cuitcode\Friendships\Models;
+namespace Somecv\Friendships\Models;
 
-use Cuitcode\Friendships\Status;
+use Somecv\Friendships\Status;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class FriendFriendshipGroups
- * @package Cuitcode\Friendships\Models
+ * @package Somecv\Friendships\Models
  */
 class FriendFriendshipGroups extends Model
 {

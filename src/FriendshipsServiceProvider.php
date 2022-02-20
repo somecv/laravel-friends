@@ -1,6 +1,6 @@
 <?php
 
-namespace Cuitcode\Friendships;
+namespace Somecv\Friendships;
 
 use Illuminate\Support\ServiceProvider;
 
