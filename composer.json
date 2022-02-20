@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Cuitcode",
-            "email": "support@cuitcode.com"
+            "name": "somecv",
+            "email": "support@somecv.com"
         }
     ],
     "autoload-dev": {
@@ -41,7 +41,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cuitcode\\Friendships\\": "src"
+            "somecv\\Friendships\\": "src"
         }
     },
     "scripts": {
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cuitcode\\Friendships\\FriendshipsServiceProvider"
+                "Somecv\\Friendships\\FriendshipsServiceProvider"
             ]
         }
     },
