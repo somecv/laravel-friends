@@ -41,7 +41,7 @@
     },
     "autoload": {
         "psr-4": {
-            "somecv\\Friendships\\": "src"
+            "Somecv\\Friendships\\": "src"
         }
     },
     "scripts": {
